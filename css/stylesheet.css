@@ -145,22 +145,22 @@ footer{
 @media (max-width:500px) {
     .header{
         height: 110px;
-        background-color: #eb6f92;
+        background-color: blue;
     }
     .navbar ul{
         padding:10px;
-        background-color:#eb6f92 ;
+        background-color:blueviolet;
     }
     aside{
-        background-color: brown;
+        background-color:violet;
     }
     .asideone{
-        background-color: darkred;
+        background-color: pink;
     }
     main{
-        background-color: darkred;
+        background-color: lightpink;
     }
     footer{
-        background-color: firebrick;
+        background-color: greenyellow;
     }
 }
