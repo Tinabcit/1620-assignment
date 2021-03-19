@@ -58,3 +58,8 @@ aside{
 .text{
     text-align: center;
 }
+main {
+    grid-row: 2 / 4;
+    grid-column: 2 / 3;
+    background-color: #907aa9;
+}
