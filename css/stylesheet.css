@@ -77,3 +77,10 @@ main {
     border-radius: 5px;
     box-shadow: 1px 1px 1px #999;
 }
+input[type=submit] {
+    padding:10px;
+    font-size:18px;
+    border:none;
+    margin-left: 350px;
+    width: 10%;
+}
