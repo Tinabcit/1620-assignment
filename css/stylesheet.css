@@ -84,3 +84,7 @@ input[type=submit] {
     margin-left: 350px;
     width: 10%;
 }
+input[type=button] {
+    padding:10px;
+    font-size:18px;
+}
