@@ -13,3 +13,20 @@ header{
     width: 100%;
     background-color:#907aa9;
 }
+.navbar ul{
+    display:flex;
+    list-style-type: none;
+    font-size:20px;
+    justify-content: flex-end;
+}
+.navbar li{
+    float:right;
+    margin:20px;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: #907aa9;
+    text-decoration: underline;
+}
