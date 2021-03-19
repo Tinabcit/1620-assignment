@@ -4,6 +4,7 @@
     display:grid;
     grid-template-rows: 80px 600px 80px;
     grid-template-rows: 0.5fr 1fr;
+    background-color: #907aa9;
 }
 header{
     grid-column: 2 /3;
@@ -37,7 +38,7 @@ aside{
     font-size: 'Roboto Mono', monospace;
 }
 .asideone{
-    border: #907aa9;
+    background-color: #907aa9;
     grid-column: 1 / 2;
     grid-row: 1 / 5;
 }
@@ -115,4 +116,51 @@ footer{
     width: 100%;
     text-align: center;
     font-size: large;
+}
+/* Desktop Version */
+@media(max-width:1000px){
+    .header{
+        height: 110px;
+        background-color: #eb6f92;
+    }
+    .navbar ul{
+        padding:10px;
+        background-color:#eb6f92 ;
+    }
+    aside{
+        background-color: brown;
+    }
+    .asideone{
+        background-color: darkred;
+    }
+    main{
+        background-color: darkred;
+    }
+    footer{
+        background-color: firebrick;
+    }
+}
+
+/* Mobile Version */
+@media (max-width:500px) {
+    .header{
+        height: 110px;
+        background-color: #eb6f92;
+    }
+    .navbar ul{
+        padding:10px;
+        background-color:#eb6f92 ;
+    }
+    aside{
+        background-color: brown;
+    }
+    .asideone{
+        background-color: darkred;
+    }
+    main{
+        background-color: darkred;
+    }
+    footer{
+        background-color: firebrick;
+    }
 }
