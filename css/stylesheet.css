@@ -5,3 +5,11 @@
     grid-template-rows: 80px 600px 80px;
     grid-template-rows: 0.5fr 1fr;
 }
+header{
+    grid-column: 2 /3;
+    grid-row: 1 / 4;
+    display:grid;
+    width: 70px;
+    width: 100%;
+    background-color:#907aa9;
+}
