@@ -63,3 +63,17 @@ main {
     grid-column: 2 / 3;
     background-color: #907aa9;
 }
+.wrapper{
+    width: 700px;
+    margin: 0 auto;
+}
+.note{
+    height: 170px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid;
+    margin-top: 200px;
+    line-height: 1.5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #999;
+}
