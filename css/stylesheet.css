@@ -41,3 +41,17 @@ aside{
     grid-column: 1 / 2;
     grid-row: 1 / 5;
 }
+.btn {
+    display:inline-flex;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.btn-outline{
+    background-color: transparent;
+    border: 1px solid;
+}
+.btn:hover{
+    transform: scale(.98);
+}
