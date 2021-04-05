@@ -126,15 +126,19 @@ footer{
     }
     aside{
         background-color:#eb6f92;
+        padding: 10px;
     }
     .asideone{
         background-color: #ebbcba;
+        padding: 10px;
     }
     main{
         background-color: #eb6f92;
+        padding: 10px;
     }
     footer{
         background-color: #ebbcba;
+        padding: 10px;
     }
 }
 
