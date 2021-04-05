@@ -157,9 +157,12 @@ footer{
     }
     .asideone{
         background-color: #f6c177;
+        width: 200px;
+        float: left;
     }
     main{
         background-color: #e0def4;
+        margin-left: 216px;
     }
     footer{
         background-color: #f6c177;
