@@ -21,7 +21,7 @@ for (const notesObject of notes){
 // Creating second function which included a querySelector as well as add event Listerner too.
 const firstnote = document.querySelector('#notes');
 const output = document.querySelector('.notes-output');
-output.textContent = notes.value;
+output.textContent = totalnotes.value;
 noteone.addEventLisner('input',function(){
-    output.textContent = notes.value;
+    output.textContent = totalnotes.value;
 });
