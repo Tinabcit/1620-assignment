@@ -82,12 +82,9 @@ input[type=submit] {
     padding:10px;
     font-size:18px;
     border:none;
-    margin-left: 350px;
+    margin-left: 400px;
+    margin-right: -300px;
     width: 10%;
-}
-input[type=button] {
-    padding:10px;
-    font-size:18px;
 }
 button{
     padding: 5px;
