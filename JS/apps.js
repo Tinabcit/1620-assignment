@@ -1,6 +1,8 @@
 /* function to add a new note */
 // Created a new array which we have to objects to present in the js file 
 // were the body and title are object of the notes.
+const totalnotes = []
+
 function note(title,body){
 const notes = [
     {title: 'title'},
