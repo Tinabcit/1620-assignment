@@ -25,3 +25,11 @@ output.textContent = totalnotes.value;
 noteone.addEventLisner('input',function(){
     output.textContent = totalnotes.value;
 });
+
+console.log('Welcome to note app. This is app.js');
+
+// Functioning to let tuggle between the light and white switch
+function myFunction(){
+    let element = document.body;
+    element.classList.toggle("dark-mode");
+}
