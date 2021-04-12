@@ -38,3 +38,14 @@ function myFunction(){
     let element = document.body;
     element.classList.toggle("dark-mode");
 }
+//Trying to add a new note bar and code what I believe its true
+function note(){
+    let element = document.getElementById("textarea")
+    element.classList.add("note one");
+    if (noteone.add === "note one"){
+        noteone.add("the new note")
+    }
+    else(noteone.remove === "note one");{
+        noteone.remove("remove the new note")
+ }
+}
