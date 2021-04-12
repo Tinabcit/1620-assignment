@@ -49,3 +49,8 @@ function note(){
         noteone.remove("remove the new note")
  }
 }
+const noteArray =document.querySelector('#notearray');
+const output = document.querySelector('.notes-output');
+output.textContent = notes.value;
+//Hope my code's are right and accure and if not please excuse me as I am still
+// how to work with javascript, css and html's and prior to coming BCIT I had not had web course experience, So sorry again.
